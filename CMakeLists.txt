@@ -1,13 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
-project(CmakeCppExample LANGUAGES CXX)
+project(CmakeCppExample LANGUAGES C CXX)
 
-# Global C++ standard settings:
-#   - Use C++ 17
-#   - Require C++ 17 support from compiler
-#   - Dissalow compiler-specific extensions
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED On)
-set(CMAKE_CXX_EXTENSIONS Off)
 
 # Adding fmt with FetchContent
 # include(FetchContent)
